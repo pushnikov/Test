@@ -247,8 +247,7 @@ body {
     width: 161px;
     height: 14px;
     margin-top: 40px;
-    margin-left: 30px;
-    background-color: yellow; }
+    margin-left: 30px; }
   .miniNav > span {
     color: #1c1c1c;
     font-family: Roboto;
@@ -286,8 +285,7 @@ body {
     height: 705px;
     position: absolute;
     top: 190px;
-    left: 823px;
-    background-color: yellow; }
+    left: 823px; }
   .floors > span {
     width: 55px;
     height: 13px;
@@ -458,8 +456,7 @@ body {
     width: 1110px;
     height: 375px;
     margin-top: 35px;
-    margin-left: 30px;
-    background-color: yellow; }
+    margin-left: 30px; }
   .col {
     display: -webkit-flex;
     -webkit-flex-direction: column;
@@ -505,8 +502,7 @@ body {
     margin-left: 30px;
     margin-bottom: 120px;
     width: 1110px;
-    height: 410px;
-    background-color: yellow; }
+    height: 410px; }
   .onlyPh > div {
     display: -webkit-flex;
     -webkit-flex-direction: row;
@@ -538,8 +534,7 @@ body {
     width: 1180px;
     height: 165px;
     margin-left: 30px;
-    margin-bottom: 55px;
-    background-color: yellow; }
+    margin-bottom: 55px; }
   .footer > ul {
     padding: 0;
     margin-top: 0;
@@ -1076,8 +1071,7 @@ body {
     height: 375px;
     margin-top: 35px;
     margin-left: 30px;
-    margin-bottom: 55px;
-    background-color: yellow; }
+    margin-bottom: 55px; }
   .col {
     display: -webkit-flex;
     -webkit-flex-direction: column;
@@ -1595,8 +1589,7 @@ body {
     height: 375px;
     margin-top: 35px;
     margin-left: 55px;
-    margin-bottom: 55px;
-    background-color: yellow; }
+    margin-bottom: 55px; }
   .col {
     display: -webkit-flex;
     -webkit-flex-direction: column;
@@ -2030,8 +2023,7 @@ body {
     width: 320px;
     height: 625px;
     margin-top: 35px;
-    margin-bottom: 55px;
-    background-color: yellow; }
+    margin-bottom: 55px; }
   .col {
     display: -webkit-flex;
     -webkit-flex-direction: column;
@@ -2090,10 +2082,14 @@ body {
   .footer2 {
     display: none; } }
 
-.vid video {
+video {
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  background-color: black; }
 
-.pdf img {
-  width: 91px;
-  height: 124px; }
+.onlyPh > div > div {
+  overflow: hidden; }
+
+.onlyPh img {
+  display: block;
+  height: 100%; }
